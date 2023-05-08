@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Problem</title>
+</head>
+<body>
+
+	<h1>What is 10 x 5?</h1>
+
+	<input type="text" id="answer" placeholder="Enter your answer here">
+
+	<button onclick="checkAnswer()">Submit Answer</button>
+
+	<script>
+		function checkAnswer() {
+			var answer = document.getElementById("answer").value;
+			if (answer == 50) {
+				alert("Congratulations! Your answer is correct.");
+			} else {
+				alert("Sorry, your answer is incorrect. Please try again.");
+			}
+		}
+	</script>
+
+</body>
+</html>
